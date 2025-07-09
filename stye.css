@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-color: #807f7f;
+}
+
+body{
+    background-color: white;
+}
+
+.main-container{
+    margin: 3% 8%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin-bottom: 6%;
+}
+
+.nav a{
+    font-size: large;
+    text-decoration: none;
+    color: var(--text-color);
+    padding-left: 13px;
+}
+
+.container{
+    display: flex;
+}
+
+.left-container img{
+    width: 60vw;
+    height: 55vh;
+}
+
+.child{
+    display: flex;
+    margin-top: 3%;
+}
+
+.child h1{
+    margin-right: 11%;
+    color: #010116;
+    font-size: 50px;
+    font-family: Verdana;
+    line-height: 48px;
+    
+}
+
+.child p{
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+button{
+    background-color: #d30707bd;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+.right-container{
+    height: 80vh;
+    width: 40vw;
+    margin-left: 30px;
+    background-color: #010116;
+    padding: 25px;
+}
+
+.right-container div{
+    margin-top: 35px;
+    line-height: 18px;
+}
+
+.right-container h2{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #d6a03a;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right-container h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+
+.right-container p{
+    color: var(--text-color);
+    font-size: 13px;
+}
+
+.right-container .light{
+    margin-top: 28px;
+    height: 0.5px;
+    background-color: var(--text-color);
+    border: none;
+}
